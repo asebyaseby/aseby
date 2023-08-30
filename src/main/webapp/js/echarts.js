@@ -310,7 +310,7 @@ $(function () {
 
                 }
             }
-           // return res;
+            // return res;
         };
         /*获取地图数据*/
         myChart.showLoading();
@@ -754,11 +754,11 @@ $(function () {
                     center : ['50%', '50%'],
                     roseType : 'area',
                     data:[
-                        {value:70, name:'NO.4'},
-                        {value:90, name:'NO.3'},
-                        {value:110, name:'NO.2'},
-                        {value:150, name:'NO.1'},
-                        {value:40, name:'NO.5'}
+                        {value:200041, name:'NO.4 18:00-19:00'},
+                        {value:229656, name:'NO.3 12:00-13:00'},
+                        {value:261324, name:'NO.2 19:00-20:00'},
+                        {value:302126, name:'NO.1 20:00-21:00'},
+                        {value:187679, name:'NO.5 22:00-23:00'}
 
                     ]
                 }
