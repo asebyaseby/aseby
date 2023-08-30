@@ -19,9 +19,9 @@ public class DataViewController {
         ModelAndView mav = new ModelAndView("/views/RadarChart.html");
         return mav;
     }
-    @RequestMapping("/test")
+    @RequestMapping("/index")
     public ModelAndView indexList() {
-        ModelAndView mavi = new ModelAndView("/test.html");
+        ModelAndView mavi = new ModelAndView("/index.html");
         return mavi;
     }
 }
